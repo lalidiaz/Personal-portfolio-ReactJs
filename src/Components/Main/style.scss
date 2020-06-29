@@ -1,0 +1,121 @@
+	$mobile-breakpoint: 480px;
+	$tablet-breakpoint:768px;
+	$laptop-breakpoint: 1024px;
+
+
+	.Wrapper{
+		height: 420px;
+		background-position: center;
+		background-size: cover;
+		@media only screen and (max-width: $mobile-breakpoint) {
+		background: url('../../assets/headerImgMobile.png')
+		}
+		@media only screen and (min-width: $tablet-breakpoint) {
+			background-image: url('../../assets/image1.png');
+		}
+
+
+		.header{
+		width:100vw;
+		// height:50px;
+		display: flex;
+		position:relative;
+		z-index: 9999;
+
+
+
+		// .btnJs{
+		//     visibility:hidden;
+
+		//     @media only screen and (max-width: $tablet-breakpoint) {
+		//     visibility:visible;
+		//     width: 100px;
+		//     height: 100px;
+		//     position: absolute;
+		//     }
+		// }
+
+
+
+		.list{
+			display: flex;
+			text-decoration: none;
+			list-style: none;
+			width: 100%;
+			justify-content: flex-end;
+			margin-top: 10px;
+			padding: 10px;
+
+			@media only screen and (max-width: $tablet-breakpoint) {
+				display: none;
+			}
+
+			li{
+				display: inline-block;
+				justify-content: end;
+					padding-right: 20px;
+
+
+				a{
+					display: inline-block;
+					width: 90px;
+					height: 30px;
+					text-align: center;
+					text-decoration: none;
+					background-color: #9CB770;
+					color:#FFFFFF;
+					font-size:16px;
+					border-radius: 16px;
+					padding: 5px;
+				}
+			}
+		}
+
+		}
+		.image-background{
+		position: absolute;
+		width:100vw;
+		height: 700px;
+
+
+		}
+
+		.Landing{
+
+		.nameDesktop{
+			width: 600px;
+			display: block;
+			margin:0 auto;
+			padding-top: 10em;
+
+			@media only screen and (max-width: $tablet-breakpoint) {
+				display:none;
+				}
+		}
+
+		.nameMobile{
+			display: none;
+
+			@media only screen and (max-width: $tablet-breakpoint) {
+			display:block;
+			width:300px;
+			margin:0 auto;
+			padding-top:150px;
+
+			}
+		}
+
+		.frontEnd{
+			padding-top:20px;
+			text-align: center;
+			font-weight: 600;
+			font-size: 32px;
+			line-height: 27px;
+			color: #397249;
+
+			@media only screen and (max-width: $tablet-breakpoint) {
+			font-size:18px;
+			}
+		}
+	}
+}
