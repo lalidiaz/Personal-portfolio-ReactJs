@@ -1,3 +1,9 @@
+$mobile-breakpoint: 568px;
+$mobile2-breakpoint:667px;
+$mobile3-breakpoint: 736px;
+$tablet-breakpoint:768px;
+$laptop-breakpoint: 1024px;
+
 .footer{
     background-color: #F3D5BD;
     text-align: center;
@@ -7,4 +13,9 @@
     font-size: 10px;
     font-weight: bold;
     padding-top: 20px;
+
+    @media only screen and (max-width:$mobile3-breakpoint ) {
+        height:45px;
+
+	 }
 }

@@ -15,6 +15,13 @@ display: flex;
 flex-wrap: wrap;
 }
 
+@media only screen and (max-width: $mobile3-breakpoint) {
+	display: flex;
+	flex-wrap: wrap;
+	bottom:0;
+	width: 100%;
+	}
+
 img{
 width: 300px;
 padding-left: 30px;
