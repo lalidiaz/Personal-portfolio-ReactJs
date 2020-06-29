@@ -6,8 +6,8 @@ import Resume from '../../assets/lauradiazcv.pdf'
 class Contact extends React.Component {
 	render() {
 		return (
-			<React.Fragment>
-				<img className="contactTitle" src={contacto} id='Contact'/>
+			<div className="contactContainer">
+			<img className="contactTitle" src={contacto} id='Contact'/>
 				<div className="contactWrapper">
 					<div className="mail">lauradiaz1586@gmail.com</div>
 					<div className="linksContainer">
@@ -16,7 +16,7 @@ class Contact extends React.Component {
 						<li><a className="linkContact" href="https://www.linkedin.com/in/laura-diaz-a661a617a/" target="_blank">Linkedin</a></li>
 					</div>
 				</div>
-			</React.Fragment>
+			</div>
 
 
 		)

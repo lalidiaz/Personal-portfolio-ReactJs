@@ -4,11 +4,26 @@ $mobile3-breakpoint: 736px;
 $tablet-breakpoint:768px;
 $laptop-breakpoint: 1024px;
 
+.contactContainer {
+height: 300px;
+.contactTitle{
+width: 300px;
+margin: 50px auto;
 
-.contactWrapper{
+@media only screen and (max-width: $mobile-breakpoint) {
+width: 200px;
+}
+}
+img{
+width: 300px;
+padding-left: 30px;
+}
+.contactWrapper {
 margin-bottom: 30px;
 display: flex;
 justify-content: space-between;
+font-size: 20px; 
+justify-content: center;
 
 @media only screen and (max-width: $mobile-breakpoint) {
 display: flex;
@@ -16,22 +31,28 @@ flex-wrap: wrap;
 }
 
 @media only screen and (max-width: $mobile3-breakpoint) {
+display: flex;
+flex-wrap: wrap;
+bottom:0;
+width: 100%;
+}
+
+@media only screen and (min-width: $tablet-breakpoint) {
 	display: flex;
 	flex-wrap: wrap;
 	bottom:0;
+	justify-content: space-between;
+	padding-right: 30px; 
+	padding-left: 30px; 
 	width: 100%;
 	}
-
-img{
-width: 300px;
-padding-left: 30px;
-}
 
 .mail{
 font-family: 'Assistant';
 color:#397249;
 font-weight: bold;
-padding-left:30px;
+// padding-left:30px; // aca
+margin-bottom: 10px; //aca
 }
 
 .linksContainer {
@@ -56,21 +77,7 @@ list-style: none;
 		padding-left: 30px;
 		}
 	}
+	}
+	}
+	}
 }
-}
-
-}
-
-.contactTitle{
-width: 300px;
-margin: 50px auto;
-padding-left: 30px;
-
-@media only screen and (max-width: $mobile-breakpoint) {
-width: 200px;
-
-}
-
-}
-
-

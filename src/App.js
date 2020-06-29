@@ -11,8 +11,9 @@ import './App.css';
 
 
 
-function App() {
-  return (
+class App extends React.Component {
+  render(){
+    return (
     <div className="App">
       <Main />
       <AboutMe />
@@ -23,5 +24,5 @@ function App() {
     </div>
   );
 }
-
-export default App;
+}
+export default App

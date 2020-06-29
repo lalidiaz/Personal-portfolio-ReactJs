@@ -13,6 +13,7 @@ $laptop-breakpoint: 1024px;
     transition: .15s ease;
     position: relative;
     text-align: center;
+    height: 350px;
   
 
     @media only screen and (max-width: $laptop-breakpoint) {
