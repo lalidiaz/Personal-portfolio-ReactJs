@@ -1,5 +1,4 @@
 import React from 'react';
-// import Header from './Components/Header'
 import Main from './Components/Main'
 import AboutMe from './Components/AboutMe'
 import Skills from './Components/Skills'

@@ -51,8 +51,7 @@ width: 100%;
 font-family: 'Assistant';
 color:#397249;
 font-weight: bold;
-// padding-left:30px; // aca
-margin-bottom: 10px; //aca
+margin-bottom: 10px;
 }
 
 .linksContainer {
@@ -76,8 +75,8 @@ list-style: none;
 		@media only screen and (max-width: $mobile-breakpoint) {
 		padding-left: 30px;
 		}
-	}
-	}
-	}
+		}
+		}
+		}
 	}
 }
