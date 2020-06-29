@@ -4,13 +4,15 @@ import './style.scss'
 
 class Card extends React.Component {
     render() {
-        const { img, title, description } = this.props.project
+        const { img, title, description, url } = this.props.project
 
         return (
             <div className='individualCard'>
-                <img src={img} />
-                <p className='title'>{title}</p>
-                <p className='description'>{description}</p>
+                <a href={url} target='_blank'>
+                    <img src={img} />
+                    <p className='title'>{title}</p>
+                    <p className='description'>{description}</p>
+                </a>
             </div>
         )
     }

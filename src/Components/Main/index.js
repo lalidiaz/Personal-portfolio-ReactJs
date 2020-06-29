@@ -13,10 +13,10 @@ class Main extends React.Component {
                         {/* <img className='btnJs' alt="" src="" /> */}
                     </div>
                     <ul className="list">
-                        <li><a href="#">About me</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#AboutMe">About me</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                        <li><a href="#Cards">Portfolio</a></li>
+                        <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </header>
                 <div className="Landing">

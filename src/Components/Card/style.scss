@@ -1,4 +1,6 @@
 $mobile-breakpoint: 480px;
+$mobile2-breakpoint:667px;
+$mobile3-breakpoint: 736px;
 $tablet-breakpoint:768px;
 $laptop-breakpoint: 1024px;
 
@@ -11,6 +13,7 @@ $laptop-breakpoint: 1024px;
     transition: .15s ease;
     position: relative;
     text-align: center;
+  
 
     @media only screen and (max-width: $laptop-breakpoint) {
         width: calc(33% - 20px);
@@ -25,7 +28,9 @@ $laptop-breakpoint: 1024px;
         width: calc(100% - 20px);
       }
 
-    img{
+    a{
+      text-decoration: none;
+      img{
         width:100%;
         height: 50%;
         @media only screen and (max-width: $tablet-breakpoint) {
@@ -45,4 +50,7 @@ $laptop-breakpoint: 1024px;
         color:#628B61;
         padding: 10px;
     }
+    }
+
+    
 }

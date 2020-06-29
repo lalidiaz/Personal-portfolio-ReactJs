@@ -1,5 +1,7 @@
 
-$mobile-breakpoint: 480px;
+$mobile-breakpoint: 568px;
+$mobile2-breakpoint:667px;
+$mobile3-breakpoint: 736px;
 $tablet-breakpoint:768px;
 $laptop-breakpoint: 1024px;
 
@@ -10,8 +12,20 @@ $laptop-breakpoint: 1024px;
 	display: flex;
 	flex-direction: column;
 
+	@media only screen and (max-width:$mobile-breakpoint ) {
+		height: 2600px;
+	}
+
+	@media only screen and (max-width: $mobile2-breakpoint) {
+		height: 2750px;
+	}
+
+	@media only screen and (max-width: $mobile3-breakpoint) {
+		height: 2900px;
+	}
+
 	@media only screen and (max-width: $tablet-breakpoint) {
-			//height: 2500px;
+		height: 1900px;
 	}
 
 	.portfolioTitle{
@@ -21,6 +35,10 @@ $laptop-breakpoint: 1024px;
 			@media only screen and (max-width: $tablet-breakpoint) {
 			width: 250px;
 			}
+
+			@media only screen and (max-width: $mobile-breakpoint) {
+				width: 250px;
+				}
 	}
 	.cardWrapper{
 			display: flex;
@@ -34,6 +52,7 @@ $laptop-breakpoint: 1024px;
 					display: flex;
 					flex-wrap: wrap;
 			}
+			
 	}
 }
 

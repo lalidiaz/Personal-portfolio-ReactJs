@@ -15,7 +15,7 @@ class Skills extends React.Component {
 	render() {
 		return (
 
-			<div className='skillsWrapper'>
+			<div className='skillsWrapper' id='Skills'>
 				<ReactTooltip />
 				<img className='skillsTitle' alt="title" src={title} />
 

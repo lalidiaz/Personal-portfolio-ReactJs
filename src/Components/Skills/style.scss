@@ -1,4 +1,6 @@
 $mobile-breakpoint: 480px;
+$mobile2-breakpoint:667px;
+$mobile3-breakpoint: 736px;
 $tablet-breakpoint:768px;
 $laptop-breakpoint: 1024px;
 
@@ -9,9 +11,14 @@ $laptop-breakpoint: 1024px;
     background-size: cover;
     display: flex;
     flex-direction: column;
+
     @media only screen and (max-width: $tablet-breakpoint) {
-    height: 600px;
+    height: 500px;
     }
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+        height: 600px;
+        }
 
     .skillsTitle{
         margin:50px auto;
@@ -19,7 +26,13 @@ $laptop-breakpoint: 1024px;
         width: 300px;
         @media only screen and (max-width: $tablet-breakpoint) {
             width: 200px;
+            padding:0;
             }
+        
+            @media only screen and (max-width: $mobile-breakpoint) {
+                width: 200px;
+                padding:0;
+                }
     }
     
     .skillsContainer{
@@ -30,9 +43,9 @@ $laptop-breakpoint: 1024px;
         margin:0 auto;
 
         @media only screen and (max-width: $tablet-breakpoint) {
-            width:100%;
-            
+            width:70%;
         }
+
         
         img{
             width: 120px;
@@ -40,7 +53,7 @@ $laptop-breakpoint: 1024px;
             padding:20px;
 
             @media only screen and (max-width: $tablet-breakpoint) {
-            width: 100px;
+            width: 80px;
             margin:10px;
             padding:5px;
             }
