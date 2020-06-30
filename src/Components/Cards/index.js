@@ -16,8 +16,8 @@ class Cards extends React.Component {
       {
         img: project1,
         title: ' 🎥 Courflix',
-        description: 'First part of the coding Bootcamp final project. I recreated a similar version of Netflix platform but this is called Courflix.',
-        url: 'https://courflix.lalidiaz.now.sh/'
+        description: 'Work in progress here 🙌. First part of the coding Bootcamp final project. I recreated a similar version of Netflix platform but this is called Courflix.',
+        url: 'https://github.com/lalidiaz/Courflix-Project'
       },
       {
         img: project2,
