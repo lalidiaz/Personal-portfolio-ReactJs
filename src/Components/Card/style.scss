@@ -28,6 +28,7 @@ $laptop-breakpoint: 1024px;
       @media only screen and (max-width: $mobile3-breakpoint) {
         width: calc(100% - 20px);
         height: 500px;
+        width: 250px;
       }
       @media only screen and (max-width: $mobile2-breakpoint) {
         width: calc(100% - 20px);
