@@ -64,7 +64,7 @@ class Cards extends React.Component {
       {
         img: project8,
         title: '🏗 La Muralla Roja Blog',
-        description: "I created an architecture blog about La Muralla Roja, an amazing peace of architecture built in the 60s.",
+        description: "I created an architecture blog about La Muralla Roja, an amazing piece of architecture built in the 60s.",
         url:'https://efecto-parallax-3nd21jqki.vercel.app/'
 
       }
