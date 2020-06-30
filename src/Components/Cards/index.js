@@ -16,26 +16,26 @@ class Cards extends React.Component {
       {
         img: project1,
         title: ' 🎥 Courflix',
-        description: 'First part of the coding Bootcamp final project, I recreate a similar version of Netflix platform but this is called Courflix.',
+        description: 'First part of the coding Bootcamp final project. I recreated a similar version of Netflix platform but this is called Courflix.',
         url: 'https://courflix.lalidiaz.now.sh/'
       },
       {
         img: project2,
         title: '🌴 Bali Experience',
-        description: '3D Cards created with CSS.A small trip to this amazing place called Bali, Indonesia.',
+        description: '3D Cards created with CSS. A small trip to this amazing place called Bali, Indonesia.',
         url:'https://baliexperience.now.sh/'
       },
       {
         img: project3,
         title: '🐱 Random Cat',
-        description: "Press the button to enjoy random Cat.I used Fetch + API to bring data from the public Cat API. JavaScript vanilla.",
+        description: "Press the button to enjoy random Cat. I used Fetch + API to bring data from the public Cat API. JavaScript vanilla.",
         url:'https://fetch-cat-api-apem7ifi6.vercel.app/'
       },
 
       {
         img: project4,
         title: '🌧 Weather App',
-        description: "You can check the weather in every City with this App. JavaScript vanilla.",
+        description: "You can check the weather of any city with this App. Built with JavaScript vanilla.",
         url: 'https://app-weather.vercel.app/'
         
       },
@@ -43,14 +43,14 @@ class Cards extends React.Component {
       {
         img: project5,
         title: '🎨 Mom Web Page',
-        description: "I create a web page for my Mom, she is an Artist and also Art teacher.",
+        description: "I created a web page for my Mom, she is an Artist and also Art teacher.",
         url:'https://pagina-mami.lalidiaz.now.sh/'
 
       },
       {
         img: project6,
         title: '📸 Camera for sale!-React',
-        description: "In this App I brought data with Fetch from a e-commerce public API, the cards display price(also currency), name of the product and picture.",
+        description: "In this App I brought data with Fetch from an e-commerce public API, the cards display price (also currency), name of the product and picture.",
         url:'https://github.com/lalidiaz/ReactJs-FETCH'
 
       },
@@ -64,7 +64,7 @@ class Cards extends React.Component {
       {
         img: project8,
         title: '🏗 La Muralla Roja Blog',
-        description: "I create an architecture blog about La Muralla Roja, an interesting places built in the 60s.",
+        description: "I created an architecture blog about La Muralla Roja, an amazing peace of architecture built in the 60s.",
         url:'https://efecto-parallax-3nd21jqki.vercel.app/'
 
       }
