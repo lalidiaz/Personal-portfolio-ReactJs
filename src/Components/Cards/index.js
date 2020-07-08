@@ -9,6 +9,7 @@ import project5 from '../../assets/project5.png'
 import project6 from '../../assets/project6.png'
 import project7 from '../../assets/project7.png'
 import project8 from '../../assets/project8.png'
+import project9 from '../../assets/project9.png'
 
 class Cards extends React.Component {
   render() {
@@ -47,16 +48,16 @@ class Cards extends React.Component {
         url:'https://pagina-mami.lalidiaz.now.sh/'
 
       },
-      {
-        img: project6,
-        title: '📸 Camera for sale!-React',
-        description: "In this App I brought data with Fetch from an e-commerce public API, the cards display price (also currency), name of the product and picture.",
-        url:'https://github.com/lalidiaz/ReactJs-FETCH'
+      // {
+      //   img: project6,
+      //   title: '📸 Camera for sale!-React',
+      //   description: "In this App I brought data with Fetch from an e-commerce public API, the cards display price (also currency), name of the product and picture.",
+      //   url:'https://github.com/lalidiaz/ReactJs-FETCH'
 
-      },
+      // },
       {
         img: project7,
-        title: '🔍 Dynamic Cards-React',
+        title: '🔮 Dynamic Cards-React',
         description: "This cards can change the content dynamically. The cards will display on screen according to the content I add.",
         url:'https://github.com/lalidiaz/StartUP-ReactJs'
 
@@ -67,6 +68,12 @@ class Cards extends React.Component {
         description: "I created an architecture blog about La Muralla Roja, an amazing piece of architecture built in the 60s.",
         url:'https://efecto-parallax-3nd21jqki.vercel.app/'
 
+      },
+      {
+        img: project9,
+        title: '🔍 Search Engine',
+        description: "This is a search engine built in ReactJs. I brought info from a Public API, you will be able to see price, products and name.",
+        url:'https://fetch-mercadolibre.lalidiaz.vercel.app/'
       }
 
     ]
