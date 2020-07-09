@@ -10,6 +10,7 @@ import project6 from '../../assets/project6.png'
 import project7 from '../../assets/project7.png'
 import project8 from '../../assets/project8.png'
 import project9 from '../../assets/project9.png'
+import project10 from'../../assets/project10.png'
 
 class Cards extends React.Component {
   render() {
@@ -74,6 +75,12 @@ class Cards extends React.Component {
         title: '🔍 Search Engine',
         description: "This is a search engine built in ReactJs. I brought info from a Public API, you will be able to see price, products and name.",
         url:'https://fetch-mercadolibre.lalidiaz.vercel.app/'
+      },
+      {
+        img: project10,
+        title: '🥕 Recipe App',
+        description: "This is a recipe App, you can search for any food you like and will show you a variety of recipes.",
+        url:'https://food-recipe-app.vercel.app'
       }
 
     ]
