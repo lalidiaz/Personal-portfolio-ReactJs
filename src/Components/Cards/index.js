@@ -11,6 +11,8 @@ import project7 from '../../assets/project7.png'
 import project8 from '../../assets/project8.png'
 import project9 from '../../assets/project9.png'
 import project10 from'../../assets/project10.png'
+import project11 from '../../assets/project11.png'
+import project12 from '../../assets/project12.png'
 
 class Cards extends React.Component {
   render() {
@@ -81,6 +83,18 @@ class Cards extends React.Component {
         title: '🥕 Recipe App',
         description: "This is a recipe App, you can search for any food you like and will show you a variety of recipes.",
         url:'https://food-recipe-app.vercel.app'
+      },
+      {
+        img: project11,
+        title: '🐶 Tigram',
+        description: "This is a pet Tigram, a social media for pets, you can create a user and register, also like the pictures and when you finish, just log out!",
+        url:'https://tigram-app.lalidiaz.vercel.app/'
+      },
+      {
+        img: project12,
+        title: '✏️ To Do List',
+        description: "This is a To Do List app, you can do your shopping list or your duties of the day!",
+        url:'https://react-todolist.lalidiaz.vercel.app/'
       }
 
     ]

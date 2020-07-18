@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.scss"
 import contacto from "../../assets/contact.png"
-import Resume from '../../assets/LauraDiaz.pdf'
+import Resume from '../../assets/LauraDiazCV.pdf'
 
 class Contact extends React.Component {
 	render() {
