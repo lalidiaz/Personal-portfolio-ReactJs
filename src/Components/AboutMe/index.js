@@ -8,8 +8,7 @@ class AboutMe extends React.Component {
         return (
             <div className='AboutMe' id='AboutMe'>
                 <img className='me' src={userImage} alt='' />
-                <p className="description">I have been working as a Flight Attendant at Emirates Airline for 4 years and recently
-                I started getting into Frontend Development. I would like to have a chance of improving my skills and
+                <p className="description">I am currently working as a Junior Front end Developer for a Dubai based company. I would like to have a chance to keep improving my skills and
             acquiring experience as a developer.</p>
             </div>
         )
