@@ -13,6 +13,8 @@ import project9 from '../../assets/project9.png'
 import project10 from'../../assets/project10.png'
 import project11 from '../../assets/project11.png'
 import project12 from '../../assets/project12.png'
+import project13 from '../../assets/project13.png'
+
 
 class Cards extends React.Component {
   render() {
@@ -95,6 +97,12 @@ class Cards extends React.Component {
         title: '✏️ To Do List',
         description: "This is a To Do List app, you can do your shopping list or your duties of the day!",
         url:'https://react-todolist.lalidiaz.vercel.app/'
+      },
+      {
+        img: project13,
+        title: '📝 REDUX + REACT - To Do List',
+        description: "This is a To Do List build in React + Redux. ",
+        url:'https://todolist-redux.vercel.app'ß
       }
 
     ]
