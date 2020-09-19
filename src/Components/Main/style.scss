@@ -25,21 +25,6 @@ $laptop-breakpoint: 1024px;
 		position:relative;
 		z-index: 9999;
 
-
-
-		// .btnJs{
-		//     visibility:hidden;
-
-		//     @media only screen and (max-width: $tablet-breakpoint) {
-		//     visibility:visible;
-		//     width: 100px;
-		//     height: 100px;
-		//     position: absolute;
-		//     }
-		// }
-
-
-
 		.list{
 			display: flex;
 			text-decoration: none;

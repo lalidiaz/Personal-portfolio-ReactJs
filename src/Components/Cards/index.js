@@ -102,7 +102,7 @@ class Cards extends React.Component {
         img: project13,
         title: '📝 REDUX + REACT - To Do List',
         description: "This is a To Do List build in React + Redux. ",
-        url:'https://todolist-redux.vercel.app'ß
+        url:'https://todolist-redux.vercel.app'
       }
 
     ]

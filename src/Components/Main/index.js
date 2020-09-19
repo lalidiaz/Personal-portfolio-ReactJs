@@ -10,7 +10,6 @@ class Main extends React.Component {
 
                 <header className='header'>
                     <div className="btnMobile">
-                        {/* <img className='btnJs' alt="" src="" /> */}
                     </div>
                     <ul className="list">
                         <li><a href="#AboutMe">About me</a></li>
@@ -23,9 +22,6 @@ class Main extends React.Component {
                     <img className='nameDesktop' src={name} />
                     <img className='nameMobile' src={name2} />
                     <h3 className='frontEnd'>FRONT END DEVELOPER </h3>
-                    
-                    {/* <img className='nameMobile' src="" alt="" /> */}
-
                 </div>
 
             </div >
