@@ -14,6 +14,7 @@ import project10 from'../../assets/project10.png'
 import project11 from '../../assets/project11.png'
 import project12 from '../../assets/project12.png'
 import project13 from '../../assets/project13.png'
+import project14 from '../../assets/project14.png'
 
 
 class Cards extends React.Component {
@@ -103,6 +104,12 @@ class Cards extends React.Component {
         title: '📝 REDUX + REACT - To Do List',
         description: "This is a To Do List build in React + Redux. ",
         url:'https://todolist-redux.vercel.app'
+      },
+      {
+        img: project14,
+        title: 'Devtter 🐦',
+        description: "A twitter clon build in NextJs + hooks + Firebase, login with github authentification.",
+        url:'https://github.com/lalidiaz/devtter-NextJs-hooks-firebase'
       }
 
     ]

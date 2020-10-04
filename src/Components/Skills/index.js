@@ -10,6 +10,8 @@ import Sass from '../../assets/sass.png'
 import responsive from '../../assets/responsive.png'
 import title from '../../assets/skills.png'
 import ReactTooltip from "react-tooltip";
+import Redux from '../../assets/redux.png'
+import Nextjs from '../../assets/nextjs.png'
 
 class Skills extends React.Component {
 	render() {
@@ -43,6 +45,12 @@ class Skills extends React.Component {
 					</div>
 					<div data-tip="Responsive designs">
 						<img src={responsive} />
+					</div>
+					<div data-tip="Redux">
+						<img src={Redux} />
+					</div>
+					<div data-tip="NextJs">
+						<img src={Nextjs} />
 					</div>
 				</div>
 			</div>
