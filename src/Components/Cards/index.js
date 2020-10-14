@@ -15,6 +15,7 @@ import project11 from '../../assets/project11.png'
 import project12 from '../../assets/project12.png'
 import project13 from '../../assets/project13.png'
 import project14 from '../../assets/project14.png'
+import project15 from '../../assets/project15.png'
 
 
 class Cards extends React.Component {
@@ -110,6 +111,12 @@ class Cards extends React.Component {
         title: 'Devtter 🐦',
         description: "A twitter clon build in NextJs + hooks + Firebase, login with github authentification.",
         url:'https://github.com/lalidiaz/devtter-NextJs-hooks-firebase'
+      },
+      {
+        img: project15,
+        title: 'CryptoTracker App- React Native 📲',
+        description: "With this app you can check all the Crypto currencies available in the market, in which markets you can find them and also information about the specific one you selected.",
+        url:'https://github.com/lalidiaz/cryptotracker-React-Native'
       }
 
     ]
